@@ -1,0 +1,42 @@
+.noestimation--container {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background: #eff0f0;
+    .noestimation--modal {
+        padding: 20px;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 3px 3px 13px -4px #919191;
+        .noestimation--modal-title {
+            font-weight: 600;
+            font-size: 24px;
+            color: #424242;
+        }
+        .noestimation--modal-content {
+            color: #606060;
+        }
+        .noestimation--action {
+            button {
+                background: #229ff8;
+                border: none;
+                color: white;
+                padding: 5px 10px;
+                margin-top: 6px;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+    .noestimation--container {
+        height: 100vh;
+        top:0;
+        padding: 0 15px;
+    }
+    
+}

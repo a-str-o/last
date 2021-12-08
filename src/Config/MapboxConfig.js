@@ -1,0 +1,1 @@
+export const MAPBOX_API_KEY ="sk.eyJ1IjoiYmFkcmJlbGtleml6IiwiYSI6ImNrbGptYmE4YzMzdGsydnM4OTZwb3lwN3EifQ.gjm1DYblxtLHI6D6hb1ZPA"

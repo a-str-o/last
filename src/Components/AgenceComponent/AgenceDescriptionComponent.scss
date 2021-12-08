@@ -1,0 +1,65 @@
+.agence--name{
+    color: #3a3a3a;
+    font-size: 1.8666666667rem;
+    font-weight: 500;
+    line-height: 2.1333333333rem;
+    margin-bottom: 1.0666666667rem;
+    margin-top : 1.0666666667rem;
+}
+.firm--type{
+    color: #3a3a3a;
+    font-size: 1.3333333333rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    margin-bottom: .5333333333rem;
+}
+.vente-scroll-link{
+    padding-left: 20px;
+}
+.firm-business-details{
+    margin-top: 20px;
+    padding : 10px;
+    .fas .far{
+        margin-right : 10px;
+    }
+}
+
+.firm-description--container{
+    margin-top : 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img.logo--agence {
+    max-width: calc(100vw - 60px);
+    padding: 10px;
+}
+
+.message--field{
+    .MuiTextField-root{
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 960px) {
+    img.logo--agence {
+        max-width: 100%;
+        padding: 0px;
+    }
+}
+.ask--contact{
+    color: #1e91ff;
+    text-align: left;
+    .fas{
+        padding-right: 10px;
+    }
+}
+
+.ask--phone:hover{
+    cursor : pointer; 
+    text-decoration: underline;
+}
+.ask--mail:hover{
+    cursor : pointer; 
+    text-decoration: underline;
+}

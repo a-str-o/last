@@ -1,0 +1,146 @@
+.estimation-items--espacepro {
+    width: 33%;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 10px;
+    display: inline-block;
+    margin: 0px;
+    .estimation-items--espacepro-card {
+        background: white;
+        padding: 20px;
+        .justify-content-mt {
+            margin: 0px;
+        }
+        .justify-content {
+            margin: 0px;
+        }
+        .estimatedPrice {
+            margin: 0px;
+            margin-bottom: 5px;
+            margin-top: 10px;
+            h3 {
+                font-family: 'Montserrat';
+            }
+        }
+        .results-caracterictics {
+            span {
+                margin-right: 10px;
+                &:last-child {
+                    margin-right: 0px;
+                }
+            }
+        }
+        .priceBarPricesLowPrice,
+        .priceBarPricesHighTitle,
+        h3, h5, .priceBarPricesHighPrice {
+            font-size: 18px;
+            margin: 0px;
+        }
+        .estimatedPriceM2 {
+            margin: 0px;
+            margin-top: 0px !important;
+            font-size: 16px;
+            margin-top: 1px;
+            margin-bottom: 10px;
+        }
+        .button {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-right: 5px;
+            display: inline-block;
+            width: auto;
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+
+.PopUpEstimationAnimation2-enter {
+    opacity: 0;
+    width: 100%;
+}
+.PopUpEstimationAnimation2-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+    width: 100%;
+}
+.PopUpEstimationAnimation2-exit {
+    opacity: 1;
+    width: 100%;
+}
+.PopUpEstimationAnimation2-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+    width: 100%;
+}
+
+@media all and (max-width: 767px){}
+@media all and (min-width: 767px) and (max-width: 992px){
+    .estimation-items--espacepro {
+        width: 50%;
+    }
+}
+@media all and (min-width: 992px) {
+}
+
+
+.container{
+    .MuiTypography-body2{
+        font-size : 1rem;
+
+    }
+    .MuiAvatar-colorDefault{
+        background-color: #2ea7f9;
+    }
+}
+
+.folder-map{
+    width: 100%;
+    min-height: 200px;;
+}
+.estimations-display--container-cards{
+.content-detail-link-rapport {
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.content--bottom-actions {
+    display: flex;
+    justify-content: space-between;
+}
+@media all and (max-width: 767px) {
+    .content--container {
+        padding-left: 20px;
+    }
+    .mapbox--container-agences {
+        height: auto !important;
+        width: 100% !important
+    }
+    .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-1 {
+        display: block !important;
+    }
+
+.content--container .content-price-estimation {
+    width: 100%;
+    display: flex;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.price-separator{
+    display: none;
+}
+.content--container .content--bottom {
+    display: block !important;
+ 
+}
+}
+
+.content-detail-link{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 20px;
+}
+
+}

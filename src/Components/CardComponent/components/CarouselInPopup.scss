@@ -1,0 +1,48 @@
+
+.carousel-left-arrow{
+    position : absolute;
+    left : 0px;
+    position: absolute;
+    width: 18px;
+    background-color: white;
+    height: 18px;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: 0.6;
+}
+
+.carousel-right-arrow{
+    position : absolute;
+    right : 0px;
+    position: absolute;
+    width: 18px;
+    background-color: white;
+    height: 18px;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: 0.6;
+}
+.label--sold-container {
+    width: auto;
+    position: absolute;
+    top: 15px;
+    /* left: 20px; */
+    border-radius: .1rem;
+    color: #fff;
+    font-size: .7333333333rem;
+    left: .666666667rem;
+    line-height: 1.3333333333rem;
+    padding: 0 .5333333333rem;
+    position: absolute;
+    text-transform: uppercase;
+    top: .666666667rem;
+    background: #1e91ff;
+}
+
+
+p.label-sold {
+    margin-bottom: 0;
+    color: white;
+}

@@ -1,0 +1,34 @@
+.row--label{
+    background: none;
+    font-size: 15px;
+    line-height: 1.6rem;
+    padding: .7333333333rem 0;
+}
+.interactions--table{
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: WorkSans,-apple-system,blinkmacsystemfont,Segoe UI,roboto,oxygen,ubuntu,cantarell,Open Sans,Helvetica Neue,sans-serif;
+    font-weight: 400;
+    table-layout: auto;
+    width: 100%;
+    border-top: 1px solid #e2e2e2;
+    .th-left{
+        width : 70%
+    }
+    .th-right{
+        width : 30%;
+        text-align: center;
+    }
+    .transac--title{
+        font-weight: 600;
+    }
+    .row-vitrine{
+        font-weight: 600;
+        color: #606060;
+    }
+    td.row--data {
+        text-align: center;
+        font-weight: 600;
+    }
+}

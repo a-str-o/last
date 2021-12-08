@@ -1,0 +1,35 @@
+
+.avancement--container {
+    max-width: 47.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid #e2e2e2;
+    box-shadow: 1px 1px 1px 1px #e2e2e2;
+    padding: 1rem 1rem 1rem 4.75rem;
+    display: flex;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    background: white;
+    position: relative;
+    top: 70px;
+}
+
+.left--container {
+    width: calc(100% - 50px);
+    padding: 10px;
+    padding-left: 30px;
+}
+.right--container {
+    width: 50px;
+    background-color: #1e91ff;
+    position: relative;
+}
+
+i.fas.fa-info-circle.avancement-info-icon {
+    left: calc(25px - 0.75rem);
+    position: absolute;
+    top: 1.125rem;
+    color: #fff;
+    font-size: 1.5rem;
+}

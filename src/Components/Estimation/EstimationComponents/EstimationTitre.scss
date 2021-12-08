@@ -1,0 +1,63 @@
+h3.titres--title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #424242;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+button.btn.btn--primary {
+    margin-top: 20px;
+    color: #fff;
+    background-color: #174ea6;
+    border-color: #174ea6;
+}
+.titres--container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+span.titre-ref {
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+
+span.titre-backslash {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.errorField-enter {
+    opacity: 0;
+    width: 100%;
+    position: relative;
+}
+.star-rating {
+    font-size: 15px;
+}
+.errorField-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+    width: 100%;
+    position: relative;
+}
+.errorField-exit {
+    opacity: 1;
+    width: 100%;
+    position: relative;
+}
+.errorField-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+    width: 100%;
+    position: relative;
+}
+p.titre-error {
+    margin-top: 10px;
+    color: #db1414;
+}
+.MuiFormControl-root.titleSelect {
+    margin-right: 10px;
+}

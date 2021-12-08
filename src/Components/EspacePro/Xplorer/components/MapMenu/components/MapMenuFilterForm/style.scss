@@ -1,0 +1,13 @@
+.map-menu-filters--filterFormBox {
+  border-bottom: 1px solid #dddddd;
+  padding: 10px 20px;
+  .map-menu-filters--filter-options {
+    font-size: 13px;
+  }
+  .active-operator {
+    font-weight: 500;
+  }
+  .map-menu-filters--operator {
+    cursor: pointer;
+  }
+}

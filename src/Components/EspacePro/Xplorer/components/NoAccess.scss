@@ -1,0 +1,75 @@
+.parametres {
+    margin-top: 25px;
+
+    textarea {
+        margin-bottom: 15px;
+    }
+}
+.account-left-side--pro{
+    .MuiBadge-root{
+        margin-right: 0px !important;
+    }
+}
+.container-dossier{
+    padding-top : 50px;
+
+}
+
+.MuiTypography-h1{
+    font-size: 1.666666666rem !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.MuiTypography-h2{
+    font-size: 1.33333333rem !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.new--lead {
+    .container--content nav span {
+        font-size: 1.111111111rem !important;
+        font-weight: 600 !important;
+        color:  #d04949 !important;
+    }
+    .MuiListItemIcon-root {
+        color: #d04949;
+    }
+    
+
+}
+
+.container-dossiers{
+    .MuiCardActions-root{
+        .button--available{
+            color: #2ea7f9;
+            .fas {
+                margin-right : 5px;
+            }
+        }
+        .button--unavailable{
+            color: #2ea7f9;
+            .fas {
+                margin-right : 5px;
+            }
+        }
+    }
+
+}
+
+.MuiDialog-root{
+    z-index : 19000 !important
+}
+@media all and (max-width: 767px) {
+
+.noestimation--container {
+    width: 100%;
+}
+}
+
+@media all and (min-width: 767px) {
+
+    .noestimation--container {
+        width: calc(100% - 300px) !important;
+    }
+    }

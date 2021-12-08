@@ -1,0 +1,534 @@
+.results-ready-icon {
+    img {
+        height: 100px;
+        margin-bottom: 30px;
+        // margin-top: 50px;
+    }
+}
+.results-icon {
+    path, polyline {
+        stroke: #2ea7f9;
+    }
+    img {
+        height: 100px;
+        margin: 65px 0px 30px;
+    }
+}
+
+.results-icon2 {
+    path {
+        fill: #2ea7f9;
+    }
+}
+
+.estimatedPrice {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.estimatedPriceM2 {
+    margin-top: 5px !important;
+    margin-bottom: -15px;
+}
+
+.priceBarPrices {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    .priceBarPricesLow {
+        text-align: left;
+        .priceBarPricesLowTitle {
+            color: grey;
+        }
+        .priceBarPricesLowPrice, .priceBarPricesLowPrice span {
+            font-weight: 600;
+            font-size: 21px;
+            color: #40C85E;
+        }
+    }
+    .priceBarPricesHigh {
+        .priceBarPricesHighTitle {
+            color: grey;
+        }
+        .priceBarPricesHighPrice, .priceBarPricesHighPrice span {
+        font-weight: 600;
+        font-size: 21px;
+        color: #DA5454;
+        }
+    }
+}
+.priceBarBar {
+    width: 100%;
+    height: 10px;
+    // background: aquamarine;
+    background: linear-gradient(90deg, #40C85E 0%, #C3DB00 49%, #FF9630 51%, #DA5454 100%);
+    margin: 5px 0px 50px;
+}
+
+
+.avisContainer{
+    h3{
+        color: #1D2965;
+    }
+}
+
+.small-screen {
+    display: none;
+}
+
+.results-estimate-price {
+    h3, h3 span {
+        font-size: 30px;
+        display: flex;
+        font-weight: bolder;
+        align-items: center;
+        justify-content: center;
+        color: #1D2965;
+       
+        
+    }
+
+    h3 span {
+        margin-right: 10px;
+    }
+}
+
+
+
+
+@media all and (max-width: 767px){
+
+    .big-screen {
+        display: none;
+    }
+
+    .small-screen {
+        display: block;
+    }
+    .show-results {
+        .display-button {
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+    
+            .secondaryCustom {
+                float: left;
+                width: 50%;
+                margin: 0;
+                border-radius: 0;
+                height: 50px;
+                color: #ffffff;
+            }
+            .primaryyCustom {
+                float: right;
+                width: 50%;
+                margin: 0;
+                border-radius: 0;
+                height: 50px;
+                color: #ffffff;
+            }
+        }
+        .button-primary {
+            // padding: 0;
+        }
+        
+        .results-top-side .results-caracterictics span {
+            font-size: 16px;
+            margin: 0;
+            margin-right: 15px;
+        }
+
+        .results-infos {
+            float: left;
+            text-align: left;
+        }
+        .info-icon {
+            float: right;
+            margin-left: 15px;
+        }
+        .results-top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            padding-left: 0px;
+        }
+
+        .results-icon img {
+            height: 100px;
+            margin: 0;
+        }
+
+        .results-middle{
+            float: left;
+            text-align: left;
+        }
+
+        .results-estimate-price {
+            text-align: left;
+        }
+
+        .starsShow {
+            margin: 0;
+        }
+    }
+
+    .results-icon {
+        display: none;
+    }
+    .priceBarPricesHighTitle {
+        text-align: right;
+    }
+
+    .avisContainer {
+        padding-bottom: 50px;
+        .col-md-12 {
+            text-align: left;
+            h3 {
+                font-size: 21px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .results-infos {
+        p {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+    }
+    .estimatedPrice {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .results-estimate-price {
+        h3 {
+            font-size: 30px;
+            
+        }
+       
+    }
+    .estimatedPriceM2 {
+        font-size: 16px;
+        margin-top: 0px !important;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media all and (min-width: 767px) and (max-width: 992px){}
+
+@media all and (min-width: 992px){
+    #avis {
+        width: 100%;
+    }
+    .estimationAvis, .serviceAccompagnement {
+        text-align: left;
+        h3 {
+            font-size: 21px;
+        }
+    }
+    .results-top-side .results-caracterictics span {
+        font-size: 15px
+    }
+    .info-icon-display {
+        position: absolute;
+        margin-left: -30px !important;
+        margin-top: 2px !important;
+        height: 10px;
+    }
+    .serviceAccompagnement {
+        p {
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.col--number, .col-12 {
+    
+    .MuiFormControl-root{width : 100%}
+}
+.col--number--estimation-display{
+padding: 0;
+padding-top: 5px;
+}
+
+.col-12--password {
+    padding-top: 5px;
+}
+
+.form-group--button{
+    padding-top : 10px;
+}
+
+.btn--estimation {
+    background-color: #00c391;
+    border-color: #00c391;
+    &:hover {
+        background-color: #00d7a0;
+        border-color: #00d7a0;
+    }
+}
+
+.form--login-estimation {
+    text-align : left !important;
+    .col-12{
+        padding-top : 1rem;
+    }
+    .MuiFormControl-root{
+        width : 90%
+    }
+}
+.form--btn {
+    padding-top: 1rem;
+    text-align : center !important;
+
+}
+
+.results-ready {
+    .MuiInput-underline:hover:not(.Mui-disabled):before{
+        border-bottom : 2px solid #39aaf9 !important
+
+    }
+    .col-12 {
+        padding-top: 25px !important;
+        margin-bottom: 0px !important;
+    }
+}
+
+.phone-display{
+    min-width : 40vw;
+    .MuiFormControl-root{
+            width : 100%
+        }
+    }
+
+.form-group--tel{
+    min-width: 40vw;
+    padding-top: 10px;
+}
+
+.form-group--avis-mobile{
+    text-align : center;
+    padding-top : 10px;
+    position : relative
+}
+.form-group--mobile{
+.select-box--box {
+position : relative;
+height : auto
+}
+.select-box--items {
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+.select-box--container {
+    height: auto;
+}
+.select-box--component{
+    height: auto !important;
+}
+}
+.form-group-valid-mobil{
+    label {
+        text-align : left
+    }
+    label + .MuiInput-formControl {
+        margin-top : 25px
+    }
+}
+@media all and (min-width: 767px){
+.text-center--telephone{
+    min-width : 320px
+}
+.listing-result-small{
+    display : none
+}
+}
+
+
+.big-screen {
+    .copy-link{
+    /* width: 100%; */
+    overflow: overlay;
+    box-shadow: 0px 0px 2px 2px #4949497d;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: left;
+   /* width: 100%; */
+    overflow: overlay;
+    box-shadow: 0px 0px 2px 2px #4949497d;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: left;
+    }
+    .copy{
+        
+        position: absolute;
+        text-align: right;
+        /* width: 100%; */
+        padding: 5px;
+        /* border: 1px solid #494949; */
+        margin: 5px;
+        margin-bottom: 5px;
+        right: 15px;
+    
+        }
+}
+
+.small-screen {
+    .copy-link{
+    /* width: 100%; */
+    overflow: overlay;
+    box-shadow: 0px 0px 2px 2px #4949497d;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: left;
+    }
+    .copy{
+        
+    position: absolute;
+    text-align: right;
+    /* width: 100%; */
+    padding: 5px;
+    /* border: 1px solid #494949; */
+    margin: 5px;
+    margin-bottom: 5px;
+    right: 15px;
+
+    }
+}
+
+
+.results-caracterictics--surface{
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+    height: 50px;
+    .info-icon-display{
+
+    /* height: auto; */
+    position: relative;
+    /* margin-top: 40px !important; */
+    /* margin: 0 !important; */
+    justify-content: center;
+    vertical-align: center;
+    display: flex;
+    /* width: 50px; */
+    white-space: nowrap;
+    
+    margin: 0;
+    height: auto;
+    justify-content: center;
+    width: auto;
+    margin-left : 0px !important;
+    margin-top : 0px !important;
+
+
+    }
+    .surface--info {
+
+    color: #1a73e8;
+    height: 24px;
+
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: 2px solid;
+    .fa-ruler-combined {
+        padding-right: 5px;
+    }
+    }
+    span {
+        text-align: center;
+    }
+}
+@media all and (max-width: 530px){
+
+.popover-container{
+    max-width: 250px;
+}
+}
+.avis--title-mobile{
+    font-size: 16px;
+}
+
+
+.socials-medias{
+    display : flex
+}
+
+.listing-result-small{
+    padding-bottom : 70px;
+    nav{
+        z-index: -1;
+    }
+}
+
+.bouton-avis-mobile{
+    background-color: #00c391 !important;
+}
+
+.bouton-avis-mobile:hover{
+    background-color: #00906b !important;
+}
+
+@media all and (max-width: 965px){
+
+.form-group--avis-mobile{
+    input::placeholder{
+        font-size : 13px;
+    }
+}
+.StepperEstimation-enter-done{
+    .pagination--container{
+        nav{
+            z-index : -1 !important;
+        }
+    }
+
+}
+}
+
+.checkbox-item-container {
+    width: 100%;
+    .checkbox-item--inner {
+        width: 100%;
+        display: flex;
+        margin-top: 10px;
+        text-align: left;
+    }
+    .checkbox-label-container {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+}
+.error-signup-consent{
+    margin-top: 15px;
+p.error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 0;
+    position: relative;
+}
+}
+
+.estimationAvis{
+    .form-group{
+        .MuiFormControl-root.MuiTextField-root {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+}
+span.checkbox-label.cndp-disclaimer {
+    font-size: 12px;
+}

@@ -1,0 +1,130 @@
+.TransactionCardDetails {
+    overflow-y: auto;
+    position: fixed;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    z-index: 10000;
+    height: calc(100% - 80px);
+    background-color: #e6e6e6;
+    transition: all ease-in .4s;
+    padding: 15px;
+    
+    .container {
+        background-color: #fff;
+    }
+
+    .button{
+
+        width: 100%;
+        margin-bottom: 25px;
+
+        span{
+            float: left;
+            color: #fff;
+            margin-right: 8px;
+            font-size: 14px;
+        }
+    }
+
+    .button-danger{
+        margin-top: 50px;
+        color: #fff;
+        background-color: #FF0606;
+        border-color: #FF0606;
+    }
+
+    .item {
+        padding: 15px;
+    }
+    .transactionImages {
+        width: 100%;
+        height: 150px;
+        border-radius: 3px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .transactionTitle .details-bien {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .transactionCompany {
+        margin-bottom: 30px;
+            p {
+                font-size: 16px
+            }
+        .transactionCompanyDetails {
+           
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            div {
+                &:first-child {
+                    margin-right: 20px;
+                }
+            }
+        }
+        .companyImage {
+            width: 130px;
+            height: 130px;
+            border-radius: 3px;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    .transactionActions, .transactionUser {
+        margin-bottom: 50px;
+
+        p {
+            font-size: 16px
+        }
+    }
+}
+
+.closeDetails {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 10000;
+    width: 50px;
+    height: 50px;
+   
+    cursor: pointer;
+
+    span {
+        font-size: 22px;
+        color: red;
+    }
+}
+
+@media all and (max-width: 767px) {
+    
+    .TransactionCardDetails {
+        overflow-y: auto;
+        position: fixed;
+        left: 11%;
+        top: 50px;
+        width: calc(100% - 40px);
+        z-index: 10000;
+        height: 100%;
+        background-color: #e6e6e6;
+        transition: all ease-in .4s;
+        padding: 15px;
+    }
+}
+.carousel-transaction--container{
+    width : 100%
+}
+
+@media all and (max-width: 991px) {
+    
+    .transaction-container {
+        .MuiGrid-container{
+            padding-top : 0px !important
+        }
+    }
+}

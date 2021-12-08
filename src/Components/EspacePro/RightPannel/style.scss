@@ -1,0 +1,37 @@
+.menuProTransition-enter {
+    opacity: 0;    
+}
+.menuProTransition-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+.menuProTransition-exit {
+    opacity: 1;
+}
+.menuProTransition-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+}
+
+@media all and (max-width: 767px) {}
+@media all and (min-width: 768px) and (max-width: 992px) {}
+@media all and (min-width: 992px) {
+    .rightPannelPro {
+        overflow-y: hidden;
+        grid-column: 2;
+        top: 80px;
+        width: calc(100vw - 320px);
+        right: 0px;
+        height: calc(100vh - 80px);
+        overflow: scroll;
+        overflow-x: hidden;
+        background: #eff0f0;
+    }
+}
+
+.mapbox--container-estimations{
+    .react-map-gl-custom{
+        height : 100% !important;
+    }
+}
+

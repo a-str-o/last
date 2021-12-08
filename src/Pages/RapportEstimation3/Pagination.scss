@@ -1,0 +1,12 @@
+.pagination--container nav {
+    z-index: 0;
+    position: relative;
+}
+.pagination--container, .pagination--container nav {
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.pagination--container {
+    width: 100%;
+}

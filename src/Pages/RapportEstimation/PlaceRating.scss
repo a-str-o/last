@@ -1,0 +1,85 @@
+.rating--places-container{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 20% 80%;
+}
+
+.rating--container {
+    width: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.rating--title{
+font-weight: 600;
+margin-bottom: 10px;
+}
+
+p.item--name {
+    position: relative;
+    padding-right: 5px;
+    font-size : 14px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-bottom: 0;
+    width: 40%;
+    overflow: hidden;
+    text-align: left;
+    // text-overflow: ellipsis;
+    // display: -webkit-box;
+    // -webkit-box-orient: vertical;
+    // -webkit-line-clamp: 1;
+    // text-align: left;
+}
+.sub--container {
+    display: flex;
+}
+
+.rating-places--container {
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+    p.item--address {font-size : 14px;
+        line-height: 28px;
+        margin-bottom: 0;
+        width: 60%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        // display: -webkit-box;
+        // -webkit-box-orient: vertical;
+        // -webkit-line-clamp: 1;
+        text-align: left;
+
+}
+
+p.item--distance{
+    margin-bottom: 0;
+    text-align: left;
+
+}
+.image--restaurants{
+width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+.image--ecoles{
+    width: 100px;
+        height: 100px;
+        visibility: hidden;
+    }
+    .image--pharmacies{
+        width: 100px;
+            height: 100px;
+            visibility: hidden;
+        }
+        .image--supermarches{
+            width: 100px;
+                height: 100px;
+                visibility: hidden;
+            }
+            .first-row-container {
+                position: relative;
+                display: contents;
+            }

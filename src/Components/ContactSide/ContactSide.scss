@@ -1,0 +1,142 @@
+
+.contact-top-side{
+    margin-top: 50px;
+
+    h3{
+        color: #1D2965;
+        margin-bottom: 25px;
+    }
+}
+.contact-top-side-form{
+    .input-form{
+        width: 100%;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}
+
+.contact-side-button {
+    button {
+        width: 100%;
+    }
+}
+
+
+.input-form:focus{
+    border-color: #fff;
+}
+
+
+.contact-top-side-informations{
+    padding: 0 25px;
+    border-left: 1px solid #1D2965;
+}
+.phone,
+.email,
+.address {
+    margin-bottom: 25px;
+    span{
+        margin-right: 20px;
+        i{
+            color: #2EA7F9;
+        }
+    }
+}
+
+.contact-socials-medias{
+    display: flex;
+    justify-content: left;
+}
+
+.facebook,
+.twitter,
+.linked,
+.whatsapp,
+.instagram{
+    margin-right: 25px;
+    font-size: 30px;
+}
+
+.contact-socials-medias  a{
+    color: inherit;
+}
+
+.facebook{
+    color: #404a99;
+}
+
+.twitter{
+    color: #47a3ef;
+}
+
+.linked{
+    color: #006eb6;
+}
+
+.whatsapp{
+    color: #00e75e;
+}
+.instagram{
+    color: #00e75e;
+}
+
+// Mobile
+@media all and (max-width: 767px) {    
+    .page-hero-section {
+        position: relative;
+        top: 60px;
+    }
+    .contact-top-side {
+        margin-top: 4px;
+        .contact-top-side-form {
+            h3 {
+                margin-bottom: 12px;
+                font-size: 18px;
+            }
+        }
+    }
+    .contact-top-side-informations {
+        border-left: none;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    .phone, .email, .address {
+        margin-bottom: 5px;
+    }
+}
+
+/* Media Query For Tablet */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    
+    .contact-top-side-informations{
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .contact-top-side-form {
+        .form-group {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.contact-top-side-form{
+    .form-group {
+        padding-top : 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-top-side-form{
+        h3 {
+            display : none;
+        }
+    }
+
+}
+.col-12{
+    
+    .MuiTextField-root{
+        width: 100%;
+    }
+    }

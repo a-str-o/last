@@ -1,0 +1,39 @@
+.dropzone {
+    margin-top: 20px;
+    height: 50px;
+    padding-top: 10px;
+    box-shadow: 1px 1px 1px 1px #2ea7f97a;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.drag--text{
+
+    font-size: 1rem;
+    color: #606060;
+    font-weight: 500;
+
+}
+
+    .button--disabled:disabled, .button--disabled[disabled], .button--disabled:disabled, .button--disabled[disabled]:hover {
+        border: 1px solid #28a745;
+        background-color: #28a745b8;
+        color: white;
+    }
+
+
+    .image--delete{
+        position: absolute;
+    /* top: 2px; */
+    /* right: 2px; */
+    z-index: 100;
+    background-color: white;
+    border-right: 1px solid grey;
+    border: 1px solid grey;
+    border-radius: 0 0 5px 0px;
+    width: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    }
+
+    .image--wrapper{position : relative}

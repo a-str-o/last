@@ -1,0 +1,10 @@
+# routes for agenz's environment of applications
+# the routes to apps are defined by the sub-urls used
+
+dispatch:
+  - url: 'admin.agenz.ma/*'
+    service: admin
+  - url: 'agenz.ma/*'
+    service: default
+  - url: 'sogemaroc.agenz.ma/*'
+    service: sogemaroc

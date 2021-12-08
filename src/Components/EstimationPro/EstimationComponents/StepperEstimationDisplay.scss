@@ -1,0 +1,859 @@
+.results-ready-icon {
+    img {
+        height: 100px;
+        margin-bottom: 30px;
+        // margin-top: 50px;
+    }
+}
+.results-icon {
+    path, polyline {
+        stroke: #2ea7f9;
+    }
+    img {
+        height: 100px;
+        margin: 65px 0px 30px;
+    }
+}
+
+.results-icon2 {
+    path {
+        fill: #2ea7f9; 
+    }
+}
+
+.estimatedPrice {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.estimatedPriceM2 {
+    margin-top: 5px !important;
+    margin-bottom: -15px;
+}
+
+.priceBarPrices {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    .priceBarPricesLow {
+        text-align: left;
+        .priceBarPricesLowTitle {
+            color: grey;
+        }
+        .priceBarPricesLowPrice, .priceBarPricesLowPrice span {
+            font-weight: 600;
+            font-size: 21px;
+            color: #40C85E;
+        }
+    }
+    .priceBarPricesHigh {
+        .priceBarPricesHighTitle {
+            color: grey;
+        }
+        .priceBarPricesHighPrice, .priceBarPricesHighPrice span {
+        font-weight: 600;
+        font-size: 21px;
+        color: #DA5454;
+        }
+    }
+}
+.priceBarBar {
+    width: 100%;
+    height: 10px;
+    // background: aquamarine;
+    background: linear-gradient(90deg, #40C85E 0%, #C3DB00 49%, #FF9630 51%, #DA5454 100%);
+    margin: 5px 0px 50px;
+}
+
+
+.avisContainer{
+    h3{
+        color: #39454f !important;
+    }
+}
+
+.small-screen {
+    display: none;
+}
+
+.results-estimate-price {
+    h3, h3 span {
+        font-size: 30px;
+        display: flex;
+        font-weight: bolder;
+        align-items: center;
+        justify-content: center;
+        color: #39454f !important;
+       
+        
+    }
+
+    h3 span {
+        margin-right: 10px;
+    }
+}
+
+
+
+
+@media all and (max-width: 767px){
+
+    .big-screen {
+        display: none;
+    }
+
+    .small-screen {
+        display: block;
+    }
+    .show-results {
+        .display-button {
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+    
+            .secondaryCustom {
+                float: left;
+                width: 50%;
+                margin: 0;
+                border-radius: 0;
+                height: 50px;
+                color: #ffffff;
+            }
+            .primaryyCustom {
+                float: right;
+                width: 50%;
+                margin: 0;
+                border-radius: 0;
+                height: 50px;
+                color: #ffffff;
+            }
+        }
+        .button-primary {
+            // padding: 0;
+        }
+        
+        .results-top-side .results-caracterictics span {
+            font-size: 16px;
+            margin: 0;
+            margin-right: 15px;
+        }
+
+        .results-infos {
+            float: left;
+            text-align: left;
+        }
+        .info-icon {
+            float: right;
+            margin-left: 15px;
+        }
+        .results-top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            padding-left: 0px;
+        }
+
+        .results-icon img {
+            height: 100px;
+            margin: 0;
+        }
+
+        .results-middle{
+            float: left;
+            text-align: left;
+        }
+
+        .results-estimate-price {
+            text-align: left;
+        }
+
+        .starsShow {
+            margin: 0;
+        }
+    }
+
+    .results-icon {
+        display: none;
+    }
+    .priceBarPricesHighTitle {
+        text-align: right;
+    }
+
+    .avisContainer {
+        padding-bottom: 50px;
+        .col-md-12 {
+            text-align: left;
+            h3 {
+                font-size: 21px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .results-infos {
+        p {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+    }
+    .estimatedPrice {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .results-estimate-price {
+        h3 {
+            font-size: 30px;
+            
+        }
+       
+    }
+    .estimatedPriceM2 {
+        font-size: 16px;
+        margin-top: 0px !important;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media all and (min-width: 767px) and (max-width: 992px){}
+
+@media all and (min-width: 992px){
+    #avis {
+        width: 100%;
+    }
+    .estimationAvis, .serviceAccompagnement {
+        text-align: left;
+        h3 {
+            font-size: 21px;
+        }
+    }
+    .results-top-side .results-caracterictics span {
+        font-size: 15px
+    }
+    .info-icon-display {
+        position: absolute;
+        margin-left: -30px !important;
+        margin-top: 2px !important;
+        height: 10px;
+    }
+    .serviceAccompagnement {
+        p {
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.col--number, .col-12 {
+    
+    .MuiFormControl-root{width : 100%}
+}
+.col--number--estimation-display{
+padding: 0;
+padding-top: 5px;
+}
+
+.col-12--password {
+    padding-top: 5px;
+}
+
+.form-group--button{
+    padding-top : 10px;
+}
+
+.btn--estimation {
+    background-color: #00c391;
+    border-color: #00c391;
+    &:hover {
+        background-color: #00d7a0;
+        border-color: #00d7a0;
+    }
+}
+
+.form--login-estimation {
+    text-align : left !important;
+    .col-12{
+        padding-top : 1rem;
+    }
+    .MuiFormControl-root{
+        width : 90%
+    }
+}
+.form--btn {
+    padding-top: 1rem;
+    text-align : center !important;
+
+}
+
+.results-ready {
+    .MuiInput-underline:hover:not(.Mui-disabled):before{
+        border-bottom : 2px solid #39aaf9 !important
+
+    }
+    .col-12 {
+        padding-top: 30px !important;
+        margin-bottom: 0px !important;
+    }
+}
+
+.phone-display{
+    min-width : 40vw;
+    .MuiFormControl-root{
+            width : 100%
+        }
+    }
+
+.form-group--tel{
+    min-width: 40vw;
+    padding-top: 10px;
+}
+
+.form-group--avis-mobile{
+    text-align : center;
+    padding-top : 10px;
+    position : relative
+}
+.form-group--mobile{
+.select-box--box {
+position : relative;
+height : auto
+}
+.select-box--items {
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+.select-box--container {
+    height: auto;
+}
+.select-box--component{
+    height: auto !important;
+}
+}
+.form-group-valid-mobil{
+    label {
+        text-align : left
+    }
+    label + .MuiInput-formControl {
+        margin-top : 25px
+    }
+}
+@media all and (min-width: 767px){
+.text-center--telephone{
+    min-width : 320px
+}
+}
+
+
+.big-screen {
+    .copy-link{
+    /* width: 100%; */
+    overflow: overlay;
+    box-shadow: 0px 0px 2px 2px #4949497d;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: left;
+   /* width: 100%; */
+    overflow: overlay;
+    box-shadow: 0px 0px 2px 2px #4949497d;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: left;
+    }
+    .copy{
+        
+        position: absolute;
+        text-align: right;
+        /* width: 100%; */
+        padding: 5px;
+        /* border: 1px solid #494949; */
+        margin: 5px;
+        margin-bottom: 5px;
+        right: 15px;
+    
+        }
+}
+
+.small-screen {
+    .copy-link{
+    /* width: 100%; */
+    overflow: overlay;
+    box-shadow: 0px 0px 2px 2px #4949497d;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: left;
+    }
+    .copy{
+        
+    position: absolute;
+    text-align: right;
+    /* width: 100%; */
+    padding: 5px;
+    /* border: 1px solid #494949; */
+    margin: 5px;
+    margin-bottom: 5px;
+    right: 15px;
+
+    }
+}
+
+
+.results-caracterictics--surface{
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+    height: 50px;
+    .info-icon-display{
+
+    /* height: auto; */
+    position: relative;
+    /* margin-top: 40px !important; */
+    /* margin: 0 !important; */
+    justify-content: center;
+    vertical-align: center;
+    display: flex;
+    /* width: 50px; */
+    white-space: nowrap;
+    
+    margin: 0;
+    height: auto;
+    justify-content: center;
+    width: auto;
+    margin-left : 0px !important;
+    margin-top : 0px !important;
+
+
+    }
+    .surface--info {
+
+    color: #1a73e8;
+    height: 24px;
+
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: 2px solid;
+    .fa-ruler-combined {
+        padding-right: 5px;
+    }
+    }
+    span {
+        text-align: center;
+    }
+}
+@media all and (max-width: 530px){
+
+.popover-container{
+    max-width: 250px;
+}
+}
+
+.pdf--first-container{
+    width : 100%
+}
+.pdf--items-container{
+    padding-top : 50px;
+    text-align : left;
+    padding-bottom: 20px;
+    button {
+        margin-top : 10px;
+    }
+
+    .pdf--container-field{
+        display : grid;
+    }
+    .pdf--container-title{
+        padding-bottom: 0.5rem;
+    }
+       
+        nav {
+            display: grid;
+            height: auto;
+            z-index: 0;
+            padding-top : 0.5rem
+        }
+    .MuiTextField-root-110{
+        width: 100%;
+    }
+    .MuiFormHelperText-root-176 {
+        color: #dc3545;
+    }
+
+    
+}
+.pdf--second-container{
+    padding-top : 2rem;
+}
+
+.head{
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* width: 50%; */
+    /* display: grid; */
+    /* grid-template-columns: auto auto; */
+    padding-bottom: 10px;
+    /* width: 100%; */
+    text-align: center;
+    border-bottom: 1px solid #bcbcbc;
+    margin-bottom: 20px;
+    .head--img{
+        width : auto
+    }
+    img{
+        max-width: 200px;
+    height: auto;
+    max-height: 100px;
+    }
+    .head--agence{
+
+    /* display: inline-grid; */
+    /* width: 80%; */
+    /* float: right; */
+    text-align: left;
+    margin-top: auto;
+    /* margin-right: auto; */
+    /* margin: auto; */
+    height: 100%;
+    padding-left: 3rem;
+    vertical-align: middle;
+    height: 100%;
+    /* margin: auto; */
+
+    }
+}
+.report--title{
+    font-size: 1.33333333rem;
+    color: #39454f !important;
+    padding-bottom: 10px;
+}
+
+.report--subtitle{
+    padding-bottom: 5px;
+    color: #39454f !important ;
+    margin-top: 0px;
+}
+.report--first-container{
+    width : 100%;
+
+    margin-top: 30px;
+    background-color: #c7c7c736;
+    padding: 20px;
+    box-shadow: 2px 2px #d8d8d8;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+    h4{
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.report-title{
+    margin-top: 20px;
+}
+}
+.price--report{
+    font-size: 1.666666667rem;
+    font-weight: 600;
+    color: #152c69;
+    span{
+    font-size: 1.666666667rem;
+    font-weight: 600;
+    color: #152c69;
+    }
+}
+.square--price--report{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #152c69;
+    span {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #152c69;
+    }
+}
+.detailed--cards{
+    max-width: 100%;
+    width : 100%;
+    margin-top : 30px;
+    svg {
+        color: #2da7f9 !important;
+
+    }
+
+}
+.detailed--card-info{
+    max-width: 100%;
+    
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    height: calc(100% - 2rem);
+
+
+    nav {
+        display : grid;
+        grid-template-rows: 3rem 3rem 3rem 3rem 3rem 3rem;
+        height: 100%;
+        z-index : 0
+    }
+    h4 {
+        padding-top : 20px;
+        padding-bottom: 10px;
+    }
+    
+}
+.detailed--card-carac{
+    max-width: 100%;
+    height: calc(100% - 2rem);
+    nav {
+        display : grid;
+        grid-template-rows: 3rem 3rem 3rem 3rem 3rem 3rem 3rem;
+        height: 100%;
+        z-index : 0
+    }
+    h4 {
+        padding-top : 20px;
+        padding-bottom: 10px;
+    }
+}
+.third--container-title{
+    text-align: center;
+    width : 100%;
+    h3{
+        padding-top: 20px;
+    }
+}
+.map2{
+    width: 100%;
+    height: 50vh;
+}
+
+.annonce-content{
+    text-align: left;
+}
+.desc--annonce{
+
+    font-size: 1rem;
+    font-weight: 600;
+}
+.prix--annonce{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #39454f !important;
+    margin-bottom: 0;
+span {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #39454f !important;
+}
+}
+.date--annonce, .source--annonce{
+margin-bottom: 0;
+}
+
+.zone{
+
+    font-size: 1.13333rem;
+    font-weight: 600;
+}
+.second--container{
+    p {
+        text-align : left;
+    }
+}
+
+.attention__ancfcc{
+    font-style: italic;
+    font-size: 0.666667777rem;
+    color: #9e2e2e;
+    span{
+    font-style: italic;
+    font-size: 0.666667777rem;
+    color: #9e2e2e;
+    }
+}
+
+.source--annonce{
+    font-size: 0.8rem;
+    font-style: italic;
+    
+}
+
+.span--prix{
+    span{
+    font-size: 1.13333rem;
+    font-weight: 600;
+    }
+}
+.footer--content{
+    display : flex
+}
+.footer-content-left{
+    width : 90%;
+    margin : auto;
+}
+.footer--content-right{
+    width : 10%;
+    float: right;
+    img {
+        max-width: 50%;
+    }
+}
+
+.footer--bar{
+    border : 1px solid #c7c7c7;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+@media (min-width: 992px) {
+.show-results-pro {
+    position: fixed;
+    left: 0px;
+    top: 80px;
+    height: calc(100vh - 80px);
+    width:100% !important;
+    padding: 45px 40px 30px 40px;
+    overflow-y: auto;
+}
+.information-results-pro {
+    position: relative !important;
+    right: 0px;
+    width: 100% !important;
+    height: auto;
+    background-color: white;
+    top: 80px;
+    padding: 50px 40px 20px;
+    color: #494949;
+    overflow-y: auto;
+    box-shadow: 5px 5px 5px 5px #888888;
+    opacity: 1;
+}
+.explanations-display-pro {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border: #2ea7f94d solid 1px;
+    border-radius: 12px;
+    max-width: 100% !important;
+}
+}
+
+.count {
+    font-weight: 600;
+    color: #39454f !important;
+}
+.place--display{
+
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.transac-content{
+
+    border: 2px solid #d27b7b;
+    border-radius: 5px;
+    .MuiPaper-rounded-416{
+        border : 0px;
+    }
+
+}
+@media all and (min-width: 900px){
+    #root-container{
+        max-width: 794px !important;
+        margin: auto;
+    }
+}
+#root-container{
+    max-width: 90vw;
+    margin: auto;
+}
+
+
+.synthese--item-container{
+    display : flex;
+    margin-bottom: 15px;
+}
+.synthese--item{
+    padding-left : 5px
+
+}
+
+.button--validate{
+margin-top : 20px;
+}
+.synthese--format{
+    background-color: #c7c7c736;
+    padding: 20px;
+    box-shadow: 2px 2px #d8d8d8;
+    border-radius: 10px;
+    svg {
+        color: #2da7f9 !important;
+
+    }
+
+}
+
+.report--header{
+    .report--subtitle{
+        color: #39454f !important;
+        margin-top : 30px;
+    }
+}
+.fourth--container{
+    margin-top: 40px;
+}
+.third--container{
+    margin-top: 40px;
+    .MuiPaper-root-223{
+        height: calc(100% - 4rem);
+    }
+
+}
+
+.second--container{
+    margin-top: 40px;
+}
+
+.detailed--cards{
+    .detailed--card-title{
+        margin-top : 30px;
+    }
+}
+
+.third--container .price-evolution--container{
+    .report--subtitle{
+        margin-top : 30px;
+    }
+}
+
+.comment-textfield{
+    div{
+        width: 100%;
+    }
+}
+
+.synthese--item-container-adresse{
+    svg{
+        margin: auto;
+    }
+    div {
+        width: 100%;
+    }
+}
+button.MuiButtonBase-root-742.MuiIconButton-root-734 {
+    padding: 0;
+}
+
+span.fav-select {
+    cursor: pointer;
+    color: #2ea7f9;
+}

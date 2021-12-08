@@ -1,0 +1,251 @@
+.parametres {
+    margin-top: 25px;
+
+    textarea {
+        margin-bottom: 15px;
+    }
+}
+.account-left-side--pro{
+    .MuiBadge-root{
+        margin-right: 0px !important;
+    }
+}
+.container-dossier{
+    padding : 0px;
+    
+
+}
+
+.MuiTypography-h1{
+    font-size: 1.666666666rem !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.MuiTypography-h2{
+    font-size: 1.33333333rem !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.new--lead {
+    .container--content nav span {
+        font-size: 1.111111111rem !important;
+        font-weight: 600 !important;
+        color:  #d04949 !important;
+    }
+    .MuiListItemIcon-root {
+        color: #d04949;
+    }
+    
+
+}
+
+.container-dossiers{
+    .MuiCardActions-root{
+        .button--available{
+            color: #2ea7f9;
+            .fas {
+                margin-right : 5px;
+            }
+        }
+        .button--unavailable{
+            color: #2ea7f9;
+            .fas {
+                margin-right : 5px;
+            }
+        }
+    }
+
+    .MuiPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded {
+        margin: 0 auto 1.25rem;
+        margin-top: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #fff;
+        border-radius: 3px;
+        box-shadow: 1px 1px 2px 1px grey;
+        box-sizing: border-box;
+        min-height: 2.5rem;
+        padding: 1rem;
+    }
+}
+
+.MuiDialog-root{
+    z-index : 19000 !important
+}
+
+
+.container--content {
+    padding: 10px;
+    max-width : 57rem;
+    margin: auto;
+}
+@media all and (max-width: 960px){
+.container-dossiers{
+    .MuiCardActions-root {
+        display: flex;
+        flex-direction: column !important;
+}
+}
+}
+
+
+.container--content-dossiers{
+    .new--lead{
+        color : #c73333;
+        .fa-medal{margin-right: 10px}
+    }
+   .content--header {
+        padding-top: 5px !important;
+    }
+    .content--container {
+     height: 100%;
+    }
+    .price{
+        font-weight: 600;
+        span{
+            font-weight: 600;
+        }
+    }
+    .content--bottom-actions {
+        display: flex;
+        justify-content: space-between;
+    }
+  
+    padding: 10px;
+    p{
+    margin-bottom: 2px;
+    }
+    .content--header {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    p.header-text {
+    max-width: 60%;
+    float: left;
+    font-weight: 600;
+    word-wrap: break-word;
+    overflow: auto;
+    text-overflow: unset;
+    white-space: break-spaces;
+    }
+    .content--details {
+        padding-right: 20px;
+        p.detail--text {
+            font-weight: 400;
+            font-size: 15px;
+            span{
+                color:  #777;
+
+            }
+        }
+    }
+    .content--bottom {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+    .content-price {
+        width: 70%;
+        display: flex;
+        padding-bottom: 20px;
+        padding-top: 30px;
+                span.price-separator {
+            width: 5px;
+            border-left: 2px solid grey;
+            margin-left: 5px;
+        }
+    }
+    p.details--link {
+        color: #2da7f9;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 14px;
+        padding-top: 30px;
+    }
+
+.content--etage {
+    padding-top: 10px;
+    span.etage {
+        color: #777;
+        font-weight: 400;
+        font-size: 15px;
+        border: 1px solid #7777774a;
+        border-radius: 3px;
+        padding: 5px;
+    }
+    span.etage-empty {
+        color: #777;
+        font-weight: 400;
+        font-size: 15px;
+        border-radius: 3px;
+        padding: 5px;
+    }
+}
+.content-detail-link {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+button.delete-lead-button {
+    background: white;
+    border: none;
+    color: black;
+}
+.mapbox--container-estimations{height: 100%;}
+.actions--container button{
+    padding-left: 0;
+    color: #2da7f9;
+    :hover{
+        text-decoration: underline;
+    }
+    i.fas {
+        margin-right: 10px;
+    }
+}
+.actions--container.button--available:hover{
+    text-decoration: underline;
+}
+
+}
+
+
+.root-lead-container{
+    padding-top: 55px;
+}
+
+
+@media all and (max-width: 767px) {
+.container--content-dossiers .content-price {
+    width: 100%;
+    justify-content: space-between;
+}
+}
+
+
+.contact--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #d25b5b;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    /* margin: auto; */
+    text-align: left;
+    max-width: 350px;
+    box-shadow: 1px 1px 1px 1px #d5d3d3;
+    border-radius: 5px;
+
+    i {
+        margin-right: 10px;
+    }
+    p{
+        margin-bottom: 10px;
+    }
+
+}
+.projet--vente-container {
+    margin-top: 10px;
+}

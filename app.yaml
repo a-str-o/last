@@ -1,0 +1,58 @@
+
+
+runtime: nodejs14
+env : standard
+
+handlers:
+# Serve all static files with url ending with a file extension
+
+- url: /sitemap.xml
+  static_files: build/sitemap.xml
+  redirect_http_response_code: 301
+  upload: build/sitemap.xml
+- url: /carte-des-prix.html
+  static_files: build/index.html
+  redirect_http_response_code: 301
+  upload: build/index.html
+  secure: always
+  expiration: "15m"
+- url: /impact-etat-appartement-prix.html
+  static_files: build/index.html
+  redirect_http_response_code: 301
+  upload: build/index.html
+  secure: always
+  expiration: "15m"
+- url: /map.html
+  static_files: build/index.html
+  redirect_http_response_code: 301
+  upload: build/index.html
+  secure: always
+  expiration: "15m"
+- url: /chute-des-prix-apres-le-deconfinement.html
+  static_files: build/index.html
+  redirect_http_response_code: 301
+  upload: build/index.html
+  secure: always
+  expiration: "15m"
+- url: /pourquoi-la-pratique-du-noir-disparaitra-en-2021.html
+  static_files: build/index.html
+  redirect_http_response_code: 301
+  upload: build/index.html
+  secure: always
+  expiration: "15m"
+- url: /espace-pro.html
+  static_files: build/index.html
+  redirect_http_response_code: 301
+  upload: build/index.html
+  secure: always
+  expiration: "15m"
+- url: /(.*\..+)$
+  static_files: build/\1
+  upload: build/(.*\..+)$
+  secure: always
+  expiration: "15m"
+- url: .*
+  static_files: build/index.html
+  upload: build/index.html
+  secure: always
+  expiration: "15m"

@@ -1,0 +1,98 @@
+h5.inscription-title-text {
+    font-size: 16px;
+    color: #333;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.inscription--title-container {
+    margin-bottom: 11px!important;
+}
+
+.inscription--inner {
+    width: 100%;
+    margin-right: 0;
+    background-color: #ffffff;
+    border-radius: 4px 4px 4px 4px;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: left;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    z-index: 2;
+    min-height: 1px;
+    box-shadow: 0px 9px 23px 1px #80808096;
+    mix-blend-mode: unset!important;
+}
+.inscription--container-inner {
+    padding-top: 11px!important;
+    padding-bottom: 19px!important;
+    margin-top: -137px!important;
+    margin-right: auto!important;
+    margin-left: auto!important;
+    padding-top: 11px;
+    padding-bottom: 19px;
+    max-width: 800px;
+    padding: 30px 0;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
+}
+.inscription--container {
+    padding-bottom: 10px;
+    margin-bottom: -4px;
+    min-height: 70px;
+    padding: 60px 0;
+    position: relative;
+    background-color: #fff;
+}
+
+.MuiFormControl-root.MuiTextField-root {
+    width: 100%;
+}
+.inscription-banner-form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.inscription--form-container {
+    margin-left: auto!important;
+    margin-right: auto!important;
+    width: 90%;
+}
+button.btn--inscription {
+    padding: .3em 1em!important;
+    font-size: 15px;
+    background-color: #1432be !important;
+    border-width: 1px!important;
+    border-color: #1432be;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: 500;
+    background-color: transparent;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    color: white;
+    margin-left: 20px !important;
+}
+.btn--inscription::hover{
+    color: #212529;
+    text-decoration: none;
+    border: 2px solid transparent;
+    color: #ffffff!important;
+    background-color: #0f2690;
+    border-color: #0f2690!important;
+    border-radius: 4px;
+}
+
+

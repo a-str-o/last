@@ -1,0 +1,27 @@
+.astuce--container {
+    border-left: 5px solid #e2e2e2;
+    padding-left: 1rem;
+}
+.entete--container {
+    text-align: left;
+}
+span.astuce-title {
+    font-weight: 600;
+}
+
+.coverImage{
+    max-width: 100%;
+}
+
+.empty-image-container {
+    height: 100%;
+    margin: auto;
+    display: grid;
+}
+
+.btn--visibilite{
+    color: #1432be;
+    border-color: #1432be;
+    height: 50px;
+    margin: auto;
+}

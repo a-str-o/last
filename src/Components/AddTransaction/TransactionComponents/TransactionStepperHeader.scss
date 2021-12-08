@@ -1,0 +1,67 @@
+.root {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.stepper {
+    width: 20%;
+    text-align: center;
+}
+.icon {
+    color: #2EA7F9 !important
+}
+
+.MuiStepIcon-root.MuiStepIcon-active, .MuiStepIcon-root.MuiStepIcon-completed {
+    color: #2EA7F9 !important
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop-pro {
+    display: none;
+}
+
+.ipad {
+    display: none;
+}
+
+@media all and (max-width: 767px){
+    .stepper-header {
+        margin-top: 125px;
+        display: none;
+    }
+    .mobile {
+        display: inherit;
+    }
+    .desktop-pro {
+        display: none;
+    }
+    .ipad {
+        display: none;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){
+    .mobile {
+        display: none;
+    }
+    .desktop-pro {
+        display: none;
+    }
+    .ipad {
+        display: inherit;
+    }
+}
+
+@media all and (min-width: 993px) {
+    .mobile {
+        display: none;
+    }
+    .desktop-pro {
+        display: inherit;
+    }
+    .ipad {
+        display: none;
+    }
+}

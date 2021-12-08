@@ -1,0 +1,173 @@
+
+.list-agency--container{
+    height: 100px;
+    box-shadow: 1px 1px 1px 1px #80808040;
+    margin-right: 4px;
+    margin-left: 4px;
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    .MuiGrid-root{
+        padding : 0 !important;
+        padding-right : 5px !important;
+    }
+}
+.list-agency--container:hover{
+    cursor : pointer;
+    background-color: #f8f8f9;
+}
+
+
+.agence--name{
+    color: #3a3a3a;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.agence--description{
+    color: #3a3a3a;
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 1rem;
+    height: 2rem;
+    text-align: left;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.agence-img--container{
+
+    width: 30%;
+    float: left;
+    height: 90%;
+    img{
+        height: 100%;
+        max-height: 80px;
+        max-width: 100%;
+        vertical-align: middle;
+        margin-top: 10px;
+    }
+}
+
+
+.agence--details-container{
+
+    width: 70%;
+    height: 90%;
+    float: right;
+    padding: 10px;
+}
+.agence-left{
+    width: 70%;
+    float: left;
+    height: 100%;
+}
+.transac-count{
+
+    width: 30%;
+    float: left;
+    height: 100%;
+    vertical-align: middle;
+    display: flex;
+
+}
+.number--agency{
+    background: #1b365d;
+    border-radius: .2rem;
+    box-sizing: border-box;
+    color: #fff;
+    display: inline-table;
+    font-family: WorkSans,-apple-system,blinkmacsystemfont,Segoe UI,roboto,oxygen,ubuntu,cantarell,Open Sans,Helvetica Neue,sans-serif;
+    font-size: .9333333333rem;
+    font-weight: 600;
+    line-height: 1.3333333333rem;
+    min-width: 1.3333333333rem;
+    padding: 0 .2rem;
+    text-align: center;
+    margin-right: .53333333rem;
+    align-self: center;
+    margin: auto;
+}
+
+
+.agence-right{
+
+    width: 30%;
+    float: right;
+    justify-content: center;
+    height: 90%;
+    margin: auto;
+    vertical-align: middle
+}
+
+.right-text{
+    width: 50%;
+    float: right;
+    height: 100%;
+
+    padding: 10px;
+}
+
+.right--subtitle{
+
+    font-size: 12px;
+    padding-right: 2px;
+    width: 90%;
+    align-self: center;
+
+}
+.right-text--container{
+    width: 60%;
+    float: right;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    vertical-align: middle;
+}
+
+.slaes-city{
+
+    text-align: left;
+
+}
+.vl{
+    border-left: 1px solid grey;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.pricing-top-left{
+    height: calc(100vh - 90px - 1rem);
+    margin: auto;
+    max-width: 52.3rem;
+}
+
+.listing--subtitle{
+    font-size: 1.06666rem;
+    text-align: left;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.listing--title{
+    padding-left: 10px;
+    text-align: left;
+}
+
+.listing-titles--container{
+        /* height: 100px; */
+        box-shadow: 1px 1px 1px 1px #80808040;
+        margin-right: 4px;
+        margin-left: 4px;
+        display: -webkit-flex;
+        display: flex;
+        background-color: #fff;
+        margin-top: 10px;
+    
+}

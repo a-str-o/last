@@ -1,0 +1,50 @@
+.price-table--container{
+    .container--row>:not(.container--row) {
+        margin-left: .8rem;
+        margin-right: .8rem;
+    }
+    
+    .container--row>table {
+        width: calc(100% - 1.6rem);
+    }
+    table, table thead {
+        background: none;
+    }
+    table {
+        border: 0;
+        border-collapse: collapse;
+        border-spacing: 0;
+        font-family: WorkSans,-apple-system,blinkmacsystemfont,Segoe UI,roboto,oxygen,ubuntu,cantarell,Open Sans,Helvetica Neue,sans-serif;
+        font-weight: 400;
+        table-layout: auto;
+        width: 100%;
+    }
+    table thead tr {
+        border-bottom-color: #9a9a9a;
+    }
+    table tr {
+        border: 0;
+        border-bottom: .0666666667rem solid #e2e2e2;
+    }
+    table thead tr td, table thead tr th, table tr th {
+        color: #3a3a3a;
+        font-size: .9333333333rem;
+        font-weight: 400;
+        padding: .6666666667rem 0;
+        text-align: center;
+    }
+    table tr td {
+        background: none;
+        font-size: 15px;
+        line-height: 1.6rem;
+        padding: .7333333333rem 0;
+    }
+    .area--container{
+        cursor : pointer
+    }
+    .area--label{
+        color: #1e91ff;
+        text-decoration : underline;
+    }
+
+}

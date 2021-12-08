@@ -1,0 +1,38 @@
+.contact-link{
+    color: #1e91ff;
+    text-align: left;
+    cursor : pointer;
+}
+.contacts--container{
+    p{
+        margin-bottom: 2px;
+    }
+}
+.contacts--container.dropDown-enter-done {
+    /* border-top: 1px solid grey; */
+}
+
+.contact--details{
+    display: flex;
+    
+}
+
+.contact--actions {
+    text-align: left;
+    padding-top: 10px;
+}
+.contact--header {
+    padding-top: 20px;
+}
+.contact-link {
+    padding: 10px;
+}
+
+p.contact-phone {
+    margin-right: 10px;
+    padding: 10px;
+}
+p.contact-mail {
+    margin-right: 10px;
+    padding: 10px;
+}

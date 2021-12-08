@@ -1,0 +1,38 @@
+.form-control {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #495057;
+}
+
+.form--pro {
+    .form-group .row{
+        padding : 5px
+    }
+    .MuiFormControl-root{
+        width: 100%;
+    }
+}
+.col--number{
+    padding-left : .5rem
+}
+
+@media only screen and (max-width: 980px) {
+
+    .Home-hero-section {
+        position: relative;
+        top: 60px;
+    }
+
+
+.gridOffresPro{
+    position: relative;
+        top: 60px;
+    }
+}
+
+.gridOffresPro{
+    position: relative;
+        top: 80px;
+    }
+    strong.font {
+        background-color: #f9f9f9;
+    }

@@ -1,0 +1,28 @@
+.places-button{
+    text-align : center;
+    padding-top: 10px;
+}
+h1.places--title{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.placeInformationsDetails{
+    margin-top: 20px;
+    box-shadow: 1px 1px 1px 1px #e2e1e1;
+    padding: 20px;
+    border-radius: 5px;
+}
+.top-price-btn{
+    width: auto;
+    background-color: #00c391;
+    border-color: #00c391;
+}
+
+.top-price-btn:hover{
+    width: auto;
+    border-color: #00906b;
+    background-color: #00906b;
+}
+span.details-bien-title{
+    font-weight: 600;
+}

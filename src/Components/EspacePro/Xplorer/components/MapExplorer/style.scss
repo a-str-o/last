@@ -1,0 +1,62 @@
+.map-explorer {
+    width: 70%;
+    height: calc(100vh - 80px);
+    background: white;
+}
+.map-container--pro {
+    height: calc(100vh - 80px);
+}
+
+.PopUpTransactionAnimation-enter {
+    opacity: 0;
+    width: 100%;
+}
+.PopUpTransactionAnimation-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+    width: 100%;
+}
+.PopUpTransactionAnimation-exit {
+    opacity: 1;
+    width: 100%;
+}
+.PopUpTransactionAnimation-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+    width: 100%;
+}
+
+.pricing-top-side-price-bar-xplorer {
+    .color-display-container {
+        background: white;
+        position: absolute;
+        z-index: 1;
+        padding: 10px 10px 10px 10px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px 0px #80808070;
+        left: 32%;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+@media all and (max-width: 767px) {
+    .map-explorer {
+        width: 100%;
+        
+    }
+    canvas {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .pricing-top-side-price-bar-xplorer {
+        .color-display-container {
+            left: 2%;
+            width: 96%;
+        }
+    }
+}

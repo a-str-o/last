@@ -1,0 +1,9 @@
+.loader--container{
+    height: calc(100vh - 80px);
+margin-top: calc(50vh - 80px - 150px);
+}
+.loader--container-small{
+    height: 75px;
+    width : 100%;
+    margin: auto;
+}

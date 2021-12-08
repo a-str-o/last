@@ -1,0 +1,70 @@
+.popup--container{
+    top: 10px;
+    width : auto !important;
+}
+.popup--container-inside{
+    width : 100%;
+}
+.beat--loader{
+    padding : 10px;
+}
+
+.react-multi-carousel-list.container{
+    max-width : 100%;
+    width : 100%;
+    max-width : 300px;
+}
+
+.images--container{
+    width : 40%;
+    float : left
+}
+
+
+.info--container{
+    width : 60%;
+    float : right;
+    padding : 10px;
+}
+
+.info--display{
+    text-align: left;
+    padding: 5px;
+}
+a.agence--added {
+    font-weight: 400;
+}
+.mapboxgl-popup{
+    max-width: 350px;
+}
+.popup--container{
+    width : 100%;
+    // margin-top: 2px;
+}
+.agence--user-image{
+    max-width: 100%;
+}
+.sold--container {
+    padding: 5px;
+    background-color: #1a73e8;
+}
+p.sold--text {
+    margin-bottom: 0;
+    cursor : pointer;
+    color : white
+}
+
+p.sold--text:hover {
+    margin-bottom: 0;
+    cursor : pointer;
+    text-decoration: underline;
+}
+button.mapboxgl-popup-close-button {
+    right: 3px;
+    /* top: 2px; */
+}
+.mapboxgl-popup-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}

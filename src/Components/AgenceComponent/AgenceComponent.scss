@@ -1,0 +1,216 @@
+.agencePage {
+    height: calc(100vh - 80px);
+    padding:30px;
+    .react-multi-carousel-list.container-with-dots {
+        width: 100%;
+        height: 100%;
+        min-width: 100px;
+        min-height: 200px;
+        max-width: 85vw;
+        span.carousel-left-arrow {
+            left: 10px;
+        }
+        .w-100{
+            height: 100% !important;
+        }
+        ul.react-multi-carousel-track {
+            height: 100%;
+        }
+        .container--content {
+            max-width: 100%;
+        }
+    }
+    
+    .agenceImage {
+        width: 130px;
+        height: 130px;
+        margin-bottom: 25px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 3px;
+    }
+    .agenceContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        
+        .agenceProfile {
+            background-color: #fff;
+            padding: 15px;
+            width: 500px;
+            border-radius: 3px;
+        }
+
+        .agenceInformationsDetails p{
+            margin-bottom: 10px;
+        }
+        
+        h5 {
+            margin-bottom: 15px;
+        }
+
+        .description {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}
+.agencePage {
+    .transaction-container {
+        margin-top: 20px;
+        i.fas.fa-chevron-right {
+            left: 4px;
+            position: absolute;
+            top: 1px;
+        }
+        i.fas.fa-chevron-left {
+            position: absolute;
+            left: 3px;
+            top: 1px;
+        }
+        
+    }
+ 
+}
+
+
+
+@media all and (max-width: 767px) {
+    .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-1.MuiGrid-grid-md-12{
+        .MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-12 {
+            max-width: 100%;
+        }
+        .agencePage--container .MuiGrid-spacing-xs-1 .MuiGrid-spacing-xs-1 {
+            max-width: 100%;
+        }
+        .MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-8{
+            max-width: 100%;
+        }
+
+    }
+    .agencePage--container .agence--image-conver {
+        height: 8.6rem !important;
+    }
+    
+    
+    
+    .agencePage {
+        top: 50px;
+        position: fixed;
+        overflow: auto;
+        padding:25px;
+        width: 100%;
+        .transaction-container {
+            margin-top: 20px;
+        }
+    }
+
+    .agencePage .agenceContainer .agenceProfile {
+        background-color: #fff;
+        padding: 15px;
+        width: 100%;
+        border-radius: 3px;
+    }
+}
+
+
+.agencePage--container{
+.MuiGrid-root{
+    padding-top : 0 !important
+}
+.agence--image-conver{
+    text-align: center;
+    background-color: white;
+    height: 20.3rem;
+    img{
+        height: 100%;
+    }
+}
+.MuiGrid-spacing-xs-1{
+    // .MuiGrid-root{
+    //     background-color: white;
+    // }
+    .MuiGrid-spacing-xs-1{
+        margin : 0;
+        width : 100%
+    }
+}
+}
+.agence-cover-image{
+    height: 100%;
+    width: 90vw;
+    max-width: calc(100vw - 60px);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    max-width: 75.7333333333rem;
+}
+
+@media all and (min-width: 960px) {
+    .agence-cover-image{
+        width: 100%;
+    }
+    .agencePage--container {
+        max-width: 80vw;
+        margin: auto;
+        .MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-4 {
+            position: fixed;
+            right: 50px;
+            top: 270px;
+            width: 377px;
+        }
+    }
+}
+@media all and (min-width: 1250px) {
+    .agencePage--container {
+        max-width: 80vw;
+        margin: auto;
+        .MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-4 {
+            position: fixed;
+            right: 30px;
+            top: 150px;
+            width: 377px;
+        }
+    }
+
+}
+
+.agence--loader{
+    width: 100%;
+    height: calc(100vh - 80px);
+    /* margin: auto; */
+    text-align: center;
+    /* vertical-align: middle; */
+    display: table;
+}
+.agence--loader>span:first-child{
+    display: table-cell;
+    vertical-align: middle;
+}
+.agencePage--container {
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-4{
+    background-color: #f2f3f4;
+    box-shadow: 1px 1px 1px 1px #8080803d;
+    border-radius: 5px;
+    padding: 10px;
+}
+}
+@media (max-height: 610px){
+.agencePage--container .MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-4 {
+    top: 100px !important;
+    position: absolute !important;
+}
+}
+.main-container-agence {
+    position: relative;
+    top: 80px;
+    max-width: 75.7333333333rem;
+    margin: auto;
+}

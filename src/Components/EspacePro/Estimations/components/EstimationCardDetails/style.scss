@@ -1,0 +1,155 @@
+.EstimationCardDetails {
+    overflow-y: auto;
+    position: fixed;
+    left: 4.5%;
+    top: 137px;
+    width: calc(100% - 50px);;
+    z-index: 1000;
+    height: calc(100% - 80px);
+    background-color: #e6e6e6;
+    transition: all ease-in .4s;
+    padding: 15px;
+    
+    .container {
+        background-color: #fff;
+        margin-bottom: 60px;
+    }
+
+    .button{
+
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+        span{
+            float: left;
+            color: #fff;
+            margin-right: 8px;
+            font-size: 14px;
+        }
+    }
+
+    p span {
+        font-weight: bolder;
+    }
+    .shareLink {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        background-color: #e6e6e6;
+        border-radius: 4px;
+        border: 2px solid #ccc;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        overflow: hidden;
+        word-wrap:nowrap;
+
+        .copy-link {
+            padding: 15px;
+            font-size: 15px;
+            overflow: hidden;
+            width: 80%;
+        }
+
+        .copy {
+            height: 50px;
+            padding: 15px;
+            border: 1px solid rgb(158, 150, 150);
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            font-size: 14px;
+            background-color: #ffffff;
+            color: #1D2965;
+            cursor: pointer;
+        }
+    }
+
+    .button-danger{
+        color: #fff;
+        background-color: #FF0606;
+        border-color: #FF0606;
+    }
+
+    .button-primaire{
+        color: #fff;
+        background-color: #2EA7F9;
+        border-color: #2EA7F9;
+    }
+    .button-share{
+        color: #fff;
+        background-color: #1D2965;
+        border-color: #1D2965;
+    }
+    .results-top ,
+    .estimatedPrice,
+    .estimatedPriceM2, 
+    .results-infos, 
+    .starsShow {
+        text-align: center;
+    }
+
+    .estimatedPriceM2 {
+        margin-bottom: 10px;
+    }
+
+    .results-top .results-caracterictics span {
+        font-size: 18px;
+        margin: 15px;
+    }
+
+    .estimationActions, .transactionUser {
+        margin-bottom: 50px;
+
+        p {
+            font-size: 16px
+        }
+    }
+}
+
+.closeDetails {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 1000;
+    width: 50px;
+    height: 50px;
+   
+    cursor: pointer;
+
+    span {
+        font-size: 22px;
+        color: red;
+    }
+}
+
+.estimationCaracteristics {
+    margin-bottom: 40px;
+}
+@media all and (max-width: 767px) {
+    
+    .EstimationCardDetails {
+        overflow-y: auto;
+        position: fixed;
+        left: 11%;
+        top: 50px;
+        width: calc(100% - 40px);
+        z-index: 1000;
+        height: 100%;
+        background-color: #e6e6e6;
+        transition: all ease-in .4s;
+        padding: 15px;
+    }
+
+    .transactionCaracteristics {
+        margin-bottom: 70px;
+    }
+}
+
+.form-group--phone {
+    min-width : 35vw;
+    padding-bottom: 10px;
+    .MuiFormControl-root{
+        width: 100%;
+    }
+}

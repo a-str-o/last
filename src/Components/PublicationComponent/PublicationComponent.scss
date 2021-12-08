@@ -1,0 +1,259 @@
+.publication-image{
+    width: 100%;
+    height: 360px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+    overflow: hidden;
+}
+
+.publication-title{
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    color: #2f5597;
+    margin: 25px 0;
+
+}
+.publication-date{
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 17px;
+}
+.publication-text{
+    p{
+        margin: 15px 0;
+        text-align: left;
+    }
+
+    h5, .nb{
+        color: #2f5597;
+        margin: 20px 0;
+    }
+    ul {
+        list-style: none; /* Remove default bullets */
+        margin-left: 40px;
+        text-align: left;
+        li{
+            font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #606060;
+        }
+    }
+    
+    ul li::before {
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: #2f5597; /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+      
+    }
+
+    .quote{
+        margin-bottom: 50px;
+        padding-left: 25px;
+        border-left: 10px solid #2f5597;
+    }
+    
+
+    .quote-title{
+        color: #2f5597;
+    }
+}
+
+
+p.img--block-title {
+    color: #2f5597;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.publication-text{
+    box-shadow: 2px 2px 2px 2px #c3c3c3;
+    padding: 20px;
+    margin-top: -100px;
+    margin-left: 100px;
+    width: 60%;
+    background-color: white;
+    /* border: 1px solid black; */
+
+}
+h1.title--display {
+    text-align: left;
+    font-size: 27px;
+    font-weight: bold;
+    color : #132967;
+}
+
+@media all and (max-width: 767px){
+.publication-text {
+    box-shadow: 2px 2px 2px 2px #c3c3c3;
+    padding: 20px;
+    margin-top: -100px;
+    background-color: white;
+    width : 95% !important;
+    margin-left : 0 !important;
+    /* border: 1px solid black; */
+}
+}
+
+
+    img{
+        max-width: 100%;
+    }
+
+p.subtitle--block {
+    font-weight: 600;
+}
+.articles--right-side{
+    display : none
+}
+@media all and (min-width: 767px){
+    .articles--right-side{
+        display : block;
+        padding-top : 30px;
+        padding-left: 15px;
+        .fas {
+            font-size : 1.3rem;
+            margin-right: 15px;
+            color : #1a73e8;
+        }
+    }
+    .publication--container{
+        display : flex
+    }
+
+    .estimation--tool-container{
+        background-image: url(../../assets/img/bandeau.jpg);
+        background-size: cover;
+        justify-content: center;
+        height: 200px;
+        margin: auto;
+        padding: 30px;
+        background-color: #b7c4db52;
+        border-radius: 50px 0;
+        vertical-align: middle;
+        display: table-cell;
+    }
+    .tool--title{
+
+    max-width: 90%;
+    margin: auto;
+    font-size: 0.8888888rem;
+    font-weight: 600;
+
+    }
+    .tool--title-estimation{
+        color : white;
+        max-width: 90%;
+        margin: auto;
+        font-size: 0.8888888rem;
+        font-weight: 600;
+    
+        }
+    .tool--link{
+
+    padding-top: 20px;
+    max-width: 80%;
+    margin: auto;
+
+    }
+    .pricint--tool-container{
+
+
+    height: 200px;
+    padding: 50px;
+    background-color: #b7c4db52;
+    border-radius: 50px 0;
+    vertical-align: middle;
+
+    margin-top: 20px;
+    }
+}
+
+
+.article--root-container{
+    padding-top: 3rem;
+    text-align : center
+}
+
+.quote .sub--block{
+    text-align: left;
+}
+
+.socials-medias .facebook,
+.socials-medias .twitter,
+.socials-medias .linked,
+.socials-medias .whatsapp{
+    margin: 15px;
+    font-size: 30px;
+}
+
+.socials-medias  a{
+    color: inherit;
+}
+
+.facebook{
+    color: #404a99;
+}
+
+.twitter{
+    color: #47a3ef;
+}
+
+.linked{
+    color: #006eb6;
+}
+
+.whatsapp{
+    color: #00e75e;
+}
+
+.socials-medias{
+    display: flex;
+    justify-content: center;
+}
+@media all and (min-width: 767px){
+.background--publication{
+    position: relative !important;
+    top : 0 !important;
+    width : 100%;
+}
+}
+.background--publication {
+    position : absolute;
+    top : 160px;
+    width: 100%;
+    left: 0;
+    z-index: -1;
+}
+
+
+h3.img--block-subtitle {
+    color: #2f5597;
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin: 15px 0;
+    text-align: left;
+}
+
+h2.img--block-title {
+    color: #2f5597;
+    font-weight: 800;
+    font-size: 1.3rem;
+    margin: 15px 0;
+    text-align: left;
+}
+
+h4.img--block-subtitle-h4 {
+    color: #2f5597;
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 15px 0;
+    text-align: left;
+}

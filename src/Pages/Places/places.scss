@@ -1,0 +1,12 @@
+@media all and (max-width: 767px) {
+.main-container{
+    position : relative;
+    top : 60px
+}
+}
+@media all and (min-width: 767px) {
+    .main-container{
+        position : relative;
+        top : 80px
+    }
+}

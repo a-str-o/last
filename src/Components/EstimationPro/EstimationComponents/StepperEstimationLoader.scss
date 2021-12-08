@@ -1,0 +1,32 @@
+.loading--unit-indications{
+    width : 90%;
+    display : flex;
+    margin : auto;
+    h3 {
+        width: 80%;
+    }
+    svg {font-size : 2.44444rem}
+}
+    
+    .estimation-top-side-pro {
+        width : 100%
+}
+
+.loading--indications{
+    padding-left : 2rem
+}
+@media all and (min-width: 767px){
+.loading--indications {
+    padding-left: 2rem;
+    width: 60vw;
+    margin: auto;
+}
+}
+
+.loading--unit-indications h3 {
+    padding-left: 10px;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    min-width: 20px;
+}

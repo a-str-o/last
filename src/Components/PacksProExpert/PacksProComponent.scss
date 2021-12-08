@@ -1,0 +1,64 @@
+.grid--pack-pro--container{
+    max-width: 1200px;
+    margin: auto;
+.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-10 {
+    max-width: 100%;
+    margin: auto;
+}
+}
+.image_sticky {
+    text-align: center;
+}
+
+button.btn--inscription-expert {
+    padding: 15px !important;
+    font-size: 15px;
+    border-width: 1px!important;
+    border-color: #1432be;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: 500;
+    background-color: transparent;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    color: #1432be;
+    margin-left: 20px !important;
+}
+.btn--inscription-expert::hover{
+    color: #212529;
+    text-decoration: none;
+    border: 2px solid transparent;
+    color: #1432be!important;
+    background-color: #0f2690;
+    border-color: #0f2690!important;
+    border-radius: 4px;
+}
+
+.button-info-pro--container {
+    text-align: center;
+}
+
+.packs-pro-article--container {
+    max-width: 90vw;
+    margin: auto;
+}
+.btn--inscription-expert{
+    background-color: white !important;
+    border-color : #0f2690 !important
+}
+
+.price-list--title{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    span {
+        font-weight: 600;
+    }
+}

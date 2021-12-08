@@ -1,0 +1,66 @@
+// Mobile
+@media only screen and (max-width: 767px) {}
+
+// Tablet
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+    .second-button {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        button {
+            width: 100%;
+        }
+    }
+    .estimation-type-title {
+        font-size: 16px;
+        margin-top: 10px !important;
+    }
+    .estimation-type-icon {
+        font-size: 70px !important;
+        color: #2ea7f9 !important;
+    }
+}
+
+// Desktop
+@media only screen and (min-width: 992px){   
+}
+
+.estimation-type-3 .estimation-type-icon2 path{
+    fill : white !important;
+    color: #2ea7f9 !important;
+}
+.estimation-type {
+    height: 100%;
+}
+
+.second-step {
+    .row{
+        justify-content: center;
+    }
+    .desktop
+    {.col-sm-12.col-md-4 {
+        flex : 0 0 50% !important;
+        max-width : 100% !important;
+    }
+}
+
+}
+
+@media (min-width: 992px){
+.stepper-container {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    top: 80px;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+    min-height: 0%;
+}
+}
+@media (min-width: 767px){
+.container.main-container {
+    position: relative;
+    top: 80px;
+}
+}

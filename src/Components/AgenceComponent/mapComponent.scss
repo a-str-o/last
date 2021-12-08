@@ -1,0 +1,50 @@
+.folder-map{
+    width: 100%;
+    min-height: 250px;;
+}
+.mapbox--container-estimations > div:first-of-type{
+    height : 100% !important;
+}
+@media all and (max-width: 760px) {
+
+.mapbox--container-estimations > div:first-of-type {
+    height: 220px !important;
+}
+}
+
+.mapbox--container-estimations {
+    .markerpoint--folder {
+        width: 80px !important;
+        height: 80px !important;
+        opacity: 0.5 !important;
+    }
+}
+.link-pricing--container{
+
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.btn--pricing{
+    margin: 0 !important;
+}
+
+.mapbox--container-agences > div:first-of-type {
+    height: 400px !important;
+}
+.mapbox--container-agences{
+    height: auto !important;
+    width: 100vw;
+
+    max-width: 100%
+}
+
+.marker--sale {
+    background-image: url('markerNew.png');
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+  }

@@ -1,0 +1,58 @@
+.map-menu-filters {
+    padding: 20px;
+    border-bottom: 1px solid #dddddd;
+    .map-menu-filters--booleans {
+        .map-menu-filters--booleans-ind {
+            padding: 5px 10px;
+            border: 1px solid #c1c1c1;
+            font-size: 12px;
+            border-radius: 18px;
+            cursor: pointer;
+            background: white;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            display: inline-block;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition:    all .2s ease-in-out;
+            -o-transition:      all .2s ease-in-out;
+            -ms-transition:     all .2s ease-in-out;
+            transition:         all .2s ease-in-out;
+            &:last-child {
+                margin-right: 0px;
+            }
+            &:hover {
+                background-color: #ececec;
+            }
+        }
+        .active {
+            border: 1px solid #2ea7f9;
+            background: #2ea7f9;
+            color: white;
+            &:hover {
+                border: 1px solid #2ea7f9c4;
+                background: #2ea7f9c4;
+                color: white;
+            }
+        }
+    }
+    .map-menu-filters--transactions {
+        .dropdown-display {
+            margin-right: 5px;
+            margin-bottom: 5px;
+            &:last-child {
+                margin-right: 0px;
+            }
+            .dropdown-display--dropdown {
+                z-index: 1000;
+            }
+        }
+    }
+    .filtres-init-command {
+        display: inline-block;
+        font-size: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+        text-decoration: underline;
+        color: #2ea7f9;
+    }
+}

@@ -1,0 +1,25 @@
+p.url-li {
+    align-self: center;
+    /* height: 100%; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+p.url-li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.chevron-url{
+    align-self: center;
+    font-size: 12px;
+    margin: 10px;
+    color: #c7d3d3;
+}
+.nested-areas--container {
+    display: flex;
+    vertical-align: middle;
+    margin: auto;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}

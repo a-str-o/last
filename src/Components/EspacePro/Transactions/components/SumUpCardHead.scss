@@ -1,0 +1,20 @@
+.sumup-card-container {
+    position: relative;
+    max-width: 55rem;
+    margin: auto;
+    top: 50px;
+    .mapbox--container-agences {
+        max-width: 100%;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .sumup-card-container {
+        .MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-1{
+            max-width : 100%
+        }
+        .MuiGrid-root.MuiGrid-item.MuiGrid-grid-md-12{
+            max-width: 100%;
+        }
+    }
+}

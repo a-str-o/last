@@ -1,0 +1,127 @@
+.footer{
+    margin-top: 100px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background: linear-gradient(247.73deg, #2ea7f9 -9.53%, #102665 81.49%);
+    .footer-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+    img{
+        margin-bottom: 25px;
+        height: 45px;
+    }
+    p{
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 400;
+        margin: 15px 0;
+    }
+
+    h1{
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 27px;
+    }
+
+    li{
+        list-style: none;
+        color: #ffffff;
+        a {
+            &:first-child {
+                margin-left: 0px;
+                height: 50px;
+                line-height: 50px;
+                display: inline-block;
+            }
+        }
+        i {
+            font-size: 30px;
+            margin-left: 20px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    }
+
+    li a{
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .copy-right{
+        text-align: center;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 25px;
+    }
+    .navHolder {
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
+// mobile
+@media all and (max-width: 767px){
+    .footer{
+        position: relative;
+        p{
+            font-size: 16px;
+        }
+    
+        h1{
+            margin-top: 30px;
+        }
+
+        li a{
+            font-size: 14px;
+        }
+
+        .copy-right{
+            text-align: center;
+            font-size: 14px;
+        }
+        ul {
+            text-align: left;
+        }
+        img {
+            margin-top: 30px;
+        }
+    }
+}
+
+// tablet
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+    .footer {
+        p {
+            font-size: 14px !important;
+        }
+    }   
+    .footer {
+        li {
+            list-style: none;
+            color: #ffffff;
+            line-height: 32px;
+            font-weight: 400;
+            a {
+                font-size: 14px;
+            }
+        }
+        .copy-right {
+            text-align: center;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 400;
+            margin-top: 37px;
+        }
+    }
+}
+
+// large screens
+@media only screen and (min-width: 992px) {}

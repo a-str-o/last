@@ -1,0 +1,39 @@
+.agence-contact-overtitle{
+    padding-top : 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.agence-contact-title{
+    color: #3a3a3a;
+    font-size: 1.8666666667rem;
+    font-weight: 400;
+    line-height: 2.1333333333rem;
+    margin-bottom: 0;
+    margin-top : 0;
+    text-align: center;
+}
+
+.disclaimer--contact{
+    margin-top : .5333333333rem!important;
+    font-size : 15px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.btn-message-container{
+    width: 100%;
+    text-align: center;
+    .btn--message{
+        width : 250px;
+        margin-top: 20px;
+    }
+}
+.message--field {
+    .MuiOutlinedInput-root {
+        position: relative;
+        border-radius: 0px;
+        background-color: white;
+    }
+
+}

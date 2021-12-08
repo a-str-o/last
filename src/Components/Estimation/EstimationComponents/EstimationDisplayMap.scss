@@ -1,0 +1,19 @@
+.mapbox--container-estimation-display{
+    height: 200px;
+    .mapbox-map--container-estimation-display{
+        height: 200px;
+    }
+    .marker--estimation {
+        width: 15px;
+        height: 15px;
+        background-color: #f9423a;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        box-shadow: 1px 1px 10px -3px black;
+        /* position: relative; */
+        margin-top: 0;
+        margin-right: 10px;
+        float: left;
+        align-self: center;
+    }
+}

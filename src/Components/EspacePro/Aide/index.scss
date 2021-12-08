@@ -1,0 +1,46 @@
+.video--container{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.chapters--container{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.chapter--title{
+
+    margin-top: 20px;
+    text-decoration: underline;
+    font-weight: 200;
+    color: #2ea7f9;
+    cursor : pointer;
+
+}
+.video--page--title{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.video--page{
+    height: calc(100vh - 80px);
+    overflow: scroll;
+}
+
+@media all and (min-width: 960px){
+    .video--container{
+    top: 80px;
+    position: relative;
+}
+.chapters--container{
+    top: 80px;
+    position: relative;
+}
+.video--page--title{
+    top: 80px;
+    position: relative;
+}
+
+}

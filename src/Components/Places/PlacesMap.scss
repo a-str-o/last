@@ -1,0 +1,30 @@
+.markerpoint{
+    width: 15px;
+    height: 15px;
+    background-color: #05149e;
+    border: white 2px solid;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px -3px black;
+    /* position: relative; */
+    margin-top: 0;
+    margin-left: 10px;
+    float: left;
+    align-self: center;
+}
+
+.button-container{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.to-price-btn{
+    width: auto;
+    background-color: #00c391;
+    border-color: #00c391;
+}
+
+.to-price-btn:hover{
+    width: auto;
+    border-color: #00906b;
+    background-color: #00906b;
+}

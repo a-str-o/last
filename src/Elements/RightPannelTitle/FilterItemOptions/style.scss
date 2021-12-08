@@ -1,0 +1,127 @@
+.filterItemOptions {
+    position: absolute;
+    background: white;
+    left: 0px;
+    top: 52px;
+    width: 100%;
+    padding: 0px 20px;
+    .optionItem {
+        cursor: pointer;
+        color: #606060;
+        font-weight: normal;
+        margin-bottom: 10px;
+        input {margin: 0 20px;}
+    }
+
+    
+    .button{
+        padding: 3px;
+        padding-right: 5px;
+        span{
+            float: left;
+            color: #fff;
+            margin-right: 8px;
+            font-size: 14px;
+        }
+    }
+    .button-search{
+        color: #fff;
+        background-color: #1D2965;
+        border-color: #1D2965;
+    }
+    input {
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        padding-left: 15px;
+    }
+    select {
+        margin-bottom: 15px;
+    }
+}
+
+
+@media all and (max-width: 767px) {
+    .filterItemOptions {
+        z-index: 5;
+        position: absolute;
+        background: white;
+        left: 0px;
+        top: auto !important;
+        width: 100%;
+        box-shadow:  4px 4px 4px 'rgb(0,0,0,25%)';
+        .option {
+            padding: 5px;
+        }
+        .optionItem input{
+        min-width: 300px;
+        }
+    }
+    
+}
+
+
+
+@media all and (min-width: 767px) and (max-width: 991px) {
+    .filterItems{
+        display: grid;
+    /* grid-template-columns: 30px auto auto auto auto; */
+    padding-left: 10px;
+    .filterItem {
+        cursor: pointer;
+    /* border: solid 1px #494949; */
+    color: #fff;
+    background-color: #1D2965;
+    border-color: #1D2965;
+    text-align: center;
+    min-width: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    }
+    .cancel {
+
+        position: absolute;
+        right: 0px;
+        width: 25px;
+        min-width: 0px;
+        transform: translateY(25px);
+        z-index: 6;
+        background-color: #b13843;
+        border-color: #b13843;
+    }
+    .filterItem-1 {
+        grid-column: 1;
+    }
+    
+    .filterItem-2 {
+        grid-column: 2;
+    }
+    
+    .filterItem-3 {
+        grid-column: 3;
+    }
+    
+    .filterItem-4 {
+        grid-column: 4;
+    }
+}
+    .filterItemOptions{
+        margin-top: 2px;
+    z-index: 5;
+    position: absolute;
+    background: white;
+    left: 0px;
+    top: auto !important;
+    width: 100%;
+    margin: 0px 20px;
+    box-shadow:  4px 4px 4px 'rgb(0,0,0,25%)';
+.option {
+    padding: 5px;
+}
+.optionItem input{
+min-width: 300px;
+}
+    
+}
+
+}

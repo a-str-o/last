@@ -1,0 +1,20 @@
+.xplorer-container {
+    display: flex;
+}
+
+@media all and (max-width: 767px) {
+    .xplorer-container {
+        right: 0;
+        height: calc(100vh - 80px);
+        width: 100vw;
+        position: fixed;
+        overflow: auto;
+        
+    }
+    
+}
+.xplorer-container .menuProTransition-enter-done{
+    .TransactionDetails .PopUpTransactionAnimation-enter-done{
+       position: relative;
+    }
+}

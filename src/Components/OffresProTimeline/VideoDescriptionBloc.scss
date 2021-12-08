@@ -1,0 +1,58 @@
+p.content-titem-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5 !important;
+    text-align: left;
+    padding-bottom: 10px;
+}
+h3.content-item-title {
+    font-size: 24px;
+    color: #3a3a3a;
+    font-weight: 500!important;
+    line-height: 30px !important;
+    padding-bottom: 10px;
+    text-align: left;
+}
+h2.video-description-title {
+    text-align: left;
+    font-size: 28px;
+    line-height: 1.5 !important;
+    color: #3A3A3A;
+    padding-bottom: 10px;
+    line-height: 1em;
+    font-weight: 500;
+}
+button.btn--inscription-video {
+    min-height: 60px;
+    padding: .3em 1em!important;
+    font-size: 15px;
+    background-color: #1432be !important;
+    border-width: 1px!important;
+    border-color: #1432be;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: 500;
+    background-color: transparent;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    color: white;
+    margin-left: 0px !important;
+    float: left;
+}
+.btn--inscription-video::hover{
+    color: #212529;
+    text-decoration: none;
+    border: 2px solid transparent;
+    color: #ffffff!important;
+    background-color: #0f2690;
+    border-color: #0f2690!important;
+    border-radius: 4px;
+}

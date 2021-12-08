@@ -1,0 +1,52 @@
+.dropzone {
+    margin-top: auto;
+    height: 100px;
+    padding-top: 0px;
+    /* box-shadow: 1px 1px 1px 1px #2ea7f97a; */
+    border: 2px solid grey;
+    border-style: dashed;
+    border-radius: 5px;
+    width: 100%;
+    display : table;
+    cursor: pointer;
+}
+
+.drag--text{
+
+    font-size: 1rem;
+    color: #606060;
+    font-weight: 500;
+    text-align: center;
+    width : 100%;
+    display : table-cell;
+    vertical-align: middle;
+
+    
+}
+.drag-center{
+    display: table-row;
+    width: 100%;
+}
+
+    .button--disabled:disabled, .button--disabled[disabled], .button--disabled:disabled, .button--disabled[disabled]:hover {
+        border: 1px solid #28a745;
+        background-color: #28a745b8;
+        color: white;
+    }
+
+
+    .image--delete{
+        position: absolute;
+    /* top: 2px; */
+    /* right: 2px; */
+    z-index: 100;
+    background-color: white;
+    border-right: 1px solid grey;
+    border: 1px solid grey;
+    border-radius: 0 0 5px 0px;
+    width: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    }
+
+    .image--wrapper{position : relative}

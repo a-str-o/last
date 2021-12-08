@@ -1,0 +1,62 @@
+.markerpoint--location {
+    background-image: url('mapbox-marker-icon-gray.png');
+    background-size: cover;
+    width: 30px;
+    height: 50px;
+    cursor: pointer;
+}
+.markerpoint--ecole {
+
+    max-width: 100px !important;
+    width: 20px;
+    background-color: white;
+    border: #2196f3 4px solid;
+    border-radius: 20%;
+    box-shadow: 1px 1px 10px -3px black;
+    position: relative;
+    margin-right: 5px;
+    display: inline-table;
+}
+
+.markerpoint--restaurant {
+
+    max-width: 100px !important;
+    width: 20px;
+    background-color: white;
+    border: #e91e63 4px solid;
+    border-radius: 20%;
+    box-shadow: 1px 1px 10px -3px black;
+    position: relative;
+    margin-right: 5px;
+    display: inline-table;
+    
+}
+
+.markerpoint--pharmacie {
+       max-width: 100px !important;
+    width: 20px;
+    background-color: white;
+    border: #28a745 4px solid;
+    border-radius: 20%;
+    box-shadow: 1px 1px 10px -3px black;
+    position: relative;
+    margin-right: 5px;
+    display: inline-table;
+}
+.markerpoint--supermarche {
+    max-width: 100px !important;
+    width: 20px;
+    background-color: white;
+    border: #9c27b0 4px solid;
+    border-radius: 20%;
+    box-shadow: 1px 1px 10px -3px black;
+    position: relative;
+    margin-right: 5px;
+    display: inline-table;
+}
+
+.marker--data{
+    
+    font-size: 12px;
+    font-weight: 800;
+}

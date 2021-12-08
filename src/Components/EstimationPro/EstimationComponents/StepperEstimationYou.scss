@@ -1,0 +1,133 @@
+.choice-item {
+    cursor: pointer;
+}
+.alignStuffCenter {
+    margin-top: 15px;
+    align-items: center !important;
+    display: flex;
+}
+#projet_vente {
+    width: 100%;
+}
+.full-width-select {
+    width: 100%;
+}
+.full-width-forms {
+    width: 100%;
+}
+.buttonsHolder {
+    text-align: center;
+}
+.choice{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .choice-item{
+        padding: 10px 25px;
+        background: #FFFFFF;
+        border: 1px solid #C1C1C1;
+        box-sizing: border-box;
+    }
+
+    .owner{
+        border-radius: 5px 0px 0px 5px;
+    }
+    .particular{
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    .active{
+        background: #2ea7f9;
+        color: #FFFFFF;
+        border: 1px solid #2ea7f9;
+        font-weight: 600;
+    }
+}
+.secondaryCustom {
+    width: 150px;
+    background: lightgray;
+    margin-right: 5px;
+    z-index: 10;
+}
+
+.primaryyCustom{
+    width: 150px;
+    margin-left: 5px;
+    z-index: 10;
+}
+.fifth-button{
+    display: none;
+}
+
+.fifth-step-title {
+    h6 {
+        margin: 0px;
+    }
+}
+
+@media all and (max-width: 767px){
+    .fifth-step {
+        button {
+            display: none;
+        }
+        .MuiPhoneNumber-flagButton{
+            display : block !important;
+        }
+    }
+    .fifth-button {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .secondaryCustom {
+            float: left;
+            width: 50%;
+            margin: 0;
+            border-radius: 0;
+            height: 50px;
+            color: #ffffff;
+        }
+        .primaryyCustom {
+            float: right;
+            width: 50%;
+            margin: 0;
+            border-radius: 0;
+            height: 50px;
+            color: #ffffff;
+        }
+    }
+    .fifth-step-title {
+        font-size:  16px; 
+        margin-bottom: 0px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: #424242;
+    }
+    .choice {
+        justify-content: flex-start;
+        margin-top: 7px;
+    }
+    .mt-15 {
+        margin-top: 0px;
+    }
+}
+
+@media all and (min-width: 767px) and (max-width: 992px){
+    .secondaryCustom {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        width: 50%;
+    }
+    .primaryyCustom {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        width: 50%;
+    }
+}
+
+@media all and (min-width: 992px){}
